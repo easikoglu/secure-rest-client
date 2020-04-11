@@ -1,0 +1,15 @@
+wasabros:
+  secure-rest-client:
+    client:
+      sample-client:
+        grantType: client_credentials
+        clientId:
+        clientSecret:
+        accessTokenProviderUri: 
+
+logging:
+  level:
+    jdk.event.security: DEBUG
+    sun.net.www.protocol.http: DEBUG
+    org.springframework: DEBUG
+
